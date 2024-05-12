@@ -1,0 +1,26 @@
+{
+	"name": "roblox-ts-game",
+	"type": "module",
+	"devDependencies": {
+		"@acopier/eslint-plugin-roblox-ts": "^0.0.36",
+		"@eslint/js": "^9.2.0",
+		"@rbxts/compiler-types": "^2.3.0-types.1",
+		"@rbxts/types": "^1.0.775",
+		"@types/bun": "latest",
+		"@types/eslint-config-prettier": "^6.11.3",
+		"@types/eslint__js": "^8.42.3",
+		"eslint": "^9.2.0",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "^3.2.5",
+		"roblox-ts": "^2.3.0",
+		"typescript": "^5.4.5",
+		"typescript-eslint": "^7.8.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w"
+	}
+}
