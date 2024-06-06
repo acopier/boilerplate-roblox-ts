@@ -3,8 +3,7 @@ import js from '@eslint/js';
 import prettier from 'eslint-config-prettier';
 import roblox from '@acopier/eslint-plugin-roblox-ts';
 
-const config = ts.config({
-  extends: [js.configs.recommended, ...ts.configs.strictTypeChecked, prettier],
+const config = ts.config(js.configs.recommended, ...ts.configs.strictTypeChecked, prettier, {
   languageOptions: {
     parserOptions: {
       ecmaVersion: 2018,
