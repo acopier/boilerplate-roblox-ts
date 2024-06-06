@@ -5,30 +5,32 @@
     "$className": "DataModel",
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "TS": {
+      "__TS": {
+        "$className": "Folder",
         "$path": "dist/server"
       }
     },
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "rbxts_include": {
-        "$path": "include",
-        "node_modules": {
-          "$className": "Folder",
-          "@rbxts": {
-            "$path": "node_modules/@rbxts"
+      "__TS": {
+        "$className": "Folder",
+        "$path": "dist/shared",
+        "rbxts_include": {
+          "$path": "include",
+          "node_modules": {
+            "$className": "Folder",
+            "@rbxts": {
+              "$path": "node_modules/@rbxts"
+            }
           }
         }
-      },
-      "TS": {
-        "$path": "dist/shared"
       }
     },
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "TS": {
+        "__TS": {
           "$path": "dist/client"
         }
       }
