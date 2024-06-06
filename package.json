@@ -15,9 +15,6 @@
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.12.0"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w"
