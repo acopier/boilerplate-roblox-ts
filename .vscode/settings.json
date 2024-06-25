@@ -2,5 +2,5 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "files.eol": "\n",
   "editor.formatOnSave": true,
-  "eslint.experimental.useFlatConfig": true
+  "eslint.useFlatConfig": true
 }
